@@ -1,0 +1,14 @@
+# environment
+/.env
+/.state
+
+# dependencies
+/lib
+/node_modules
+
+# executables
+bin/migrate
+bin/swarmit
+
+# artefacts
+/tmp

@@ -1,0 +1,26 @@
+version: 2.0
+shards:
+  db:
+    git: https://github.com/crystal-lang/crystal-db.git
+    version: 0.12.0
+
+  docker:
+    git: https://github.com/ysbaddaden/docker.cr.git
+    version: 0.2.0+git.commit.1af52946fcb6065f21972e6e4fd1375755eee740
+
+  earl:
+    git: https://github.com/ysbaddaden/earl.git
+    version: 0.2.0+git.commit.3f4c145e11946eaa137c8bd42ddd1d1cb46bfc5d
+
+  frost:
+    git: https://github.com/ysbaddaden/frost.git
+    version: 0.1.0-alpha+git.commit.24f843aa88e20a4ff6f1edfa614c8c64f1aa5843
+
+  pg:
+    git: https://github.com/will/crystal-pg.git
+    version: 0.27.0
+
+  syn:
+    git: https://github.com/ysbaddaden/syn.git
+    version: 0.2.0
+

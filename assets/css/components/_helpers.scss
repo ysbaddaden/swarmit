@@ -1,0 +1,15 @@
+ul.inline {
+  display: flex;
+  gap: 1rem;
+  padding-left: 0;
+  list-style: none;
+
+  & > li {
+    display: inline-block;
+  }
+}
+
+form.inline {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,86 @@
+/* Allows changing the box-sizing for a component (and its descendants): */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+canvas, iframe, img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, dt, dd, blockquote {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+* {
+  --primary-color: #1c45ef;
+  --primary-color-hover: #0f25d5;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: #212529;
+  background: #f3f3f3;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login-card {
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 25px 37.7px 11.3px rgba(0, 0, 0, 0.07);
+  text-align: center;
+}
+
+.login-card-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.login-card-description {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+input[type=submit] {
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+input[type=submit]:hover {
+  background-color: var(--primary-color-hover);
+}
+
+/*# sourceMappingURL=login.css.map */

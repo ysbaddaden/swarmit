@@ -1,0 +1,29 @@
+name: blog
+version: 0.1.0
+
+author: Julien Portalier <julien@portalier.com>
+
+dependencies:
+  docker:
+    github: ysbaddaden/docker.cr
+    branch: master
+    # path: ../docker.cr
+
+  earl:
+    github: ysbaddaden/earl
+    branch: main
+
+  frost:
+    github: ysbaddaden/frost
+    branch: main
+      # path: ../frost
+      # version: 0.1.0-alpha
+
+  pg:
+    github: will/crystal-pg
+
+targets:
+  swarmit:
+    main: src/server.cr
+
+license: Apache-2.0

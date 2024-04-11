@@ -1,0 +1,8 @@
+---
+database_url: postgres://postgres@/swarmit_development
+public_path: "public"
+
+google_oauth_domain: manas.tech
+google_oauth_client_id: ""
+google_oauth_client_secret: ""
+google_oauth_redirect_url: "http://localhost:8000/session/callback/google"

@@ -1,0 +1,32 @@
+/* Allows changing the box-sizing for a component (and its descendants): */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+canvas, iframe, img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, dt, dd, blockquote {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}

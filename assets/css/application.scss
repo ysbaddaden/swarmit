@@ -1,0 +1,37 @@
+@import "./reset";
+
+* {
+  --text-color: #212529;
+
+  --primary-color: #1c45ef;
+  --primary-color-hover: #0f25d5;
+
+  --secondary-color: #dde4eb;
+  --secondary-color-hover: #c5d1dd;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  color: var(--text-color);
+  background: #f3f3f3;
+}
+
+pre {
+  font-family: "Roboto Mono", "Noto Sans Mono", monospace;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: "Roboto Mono", "Noto Sans Mono", monospace;
+}
+
+@import "./components/badge";
+@import "./components/button";
+@import "./components/card";
+@import "./components/filters";
+@import "./components/helpers";
+@import "./components/page";
+@import "./components/table";
+@import "./components/terminal";
+
+@import "../../node_modules/xterm/css/xterm";

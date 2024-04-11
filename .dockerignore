@@ -1,0 +1,12 @@
+/.env
+/.state
+*.nix
+
+/bin/swarmit
+/bin/migrate
+
+/lib
+/node_modules
+
+/test
+/tmp
